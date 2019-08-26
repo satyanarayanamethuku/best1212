@@ -1,0 +1,9 @@
+<h1>change password</h1>
+<form method="POST">
+    {% csrf_token %}
+    enter neww-password:<br>
+    <input type="date" name='p1' placeholder='enter new password' required><br>
+    enter re-password:<br>
+    <input type="date" name='p2' placeholder='enter re-password' required><br>
+    <input type="submit" value="submit">
+</form>
